@@ -1,0 +1,11 @@
+body{
+    background-image: url('https://images.pexels.com/photos/631986/pexels-photo-631986.jpeg?cs=srgb&dl=pexels-tobi-631986.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   }
+
+
+   a{
+    text-decoration: none;
+   }

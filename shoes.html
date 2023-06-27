@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="shoes.css">
+</head>
+
+<body>
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg bg-secondary p-4 shadow sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white fs-3" href="#"><b>Happy Trading</b></a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="../main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../main.html#about">About</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../main.html#contact">Contact</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../main.html#Services">Services</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <!-- <li class="nav-item"> -->
+          <button onclick="addProduct()" type="button" class="btn btn-outline-dark text-white">
+            <a class=" text-white" href="../addItems.html">You can add items here</a></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!-- 
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 m-3">
+    <div class="col">
+      <div class="card shadow">
+        <img width="95%" src="https://images.meesho.com/images/products/119544768/7pyu4_512.jpg" alt="..."
+          class="img-thumbnail">
+        <div class="card-body">
+          <h5 class="card-title">Shoes</h5>
+          <p class="card-text">
+            Shoes are designed to keeping in mind durability as well as trends,
+            This pair of shoes is sure to make you look smart,classy
+            <br> <a href="" class="btn btn-primary my-3">Buy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow">
+        <img width="100%" src="https://www.oshi.pk/images/variation/-16016-772.jpg" alt="..." class="img-thumbnail">
+        <div class="card-body">
+          <h5 class="card-title">Causual</h5>
+          <p class="card-text">
+            Fashion Sneakers Lightweight Men Casual Shoes Fashion Shoes For Men Casual Partywear Boys Sneakers.
+            <br> <a href="" class="btn btn-primary my-3">Buy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card shadow">
+        <img width="100%" src="https://kaisz.pk/wp-content/uploads/2022/03/He70e91b386a8477dbce53d144e052d9db.jpg"
+          alt="..." class="img-thumbnail">
+        <div class="card-body">
+          <h5 class="card-title">Sports</h5>
+          <p class="card-text">The shoes from kaisz are a versatile styling option. The lace up style features a durable
+            canvas.
+            <br> <a href="" class="btn btn-primary my-3">Buy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow">
+        <img width="100%"
+          src="https://cdn.shopify.com/s/files/1/1265/1005/products/TB1L.M4QpXXXXXbXVXXXXXXXXXX__0-item_pic.jpg?v=1603293620"
+          alt="..." class="img-thumbnail">
+        <div class="card-body">
+          <h5 class="card-title">Loffers Shoes</h5>
+          <p class="card-text">Formal men Loffer shoes. The best design for men in Loffers.
+            <br> <a href="" class="btn btn-primary my-3">Buy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="col">
+      <div class="card shadow">
+        <img width="100%" src="https://static-01.daraz.pk/p/5cab4d02fdaa1f74ab109ccad8dae2e4.jpg" alt="..."
+          class="img-thumbnail">
+        <div class="card-body">
+          <h5 class="card-title">Loffers</h5>
+          <p class="card-text">Cehck out the best black in Loffers
+            <br> <a href="" class="btn btn-primary my-3">Buy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card shadow">
+        <img width="100%"
+          src="https://cdn.shopify.com/s/files/1/1265/1005/products/22604841798_1747227126.gif?v=1648991655" alt="..."
+          class="img-thumbnail">
+        <div class="card-body">
+          <h5 class="card-title">loffer cusaul</h5>
+          <p class="card-text">Summer mens shoes.
+            <br> <a href="" class="btn btn-primary my-3">Buy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card shadow">
+        <img width="100%"
+          src="https://trendyoutfits.pk/wp-content/uploads/2023/03/WhatsApp-Image-2023-03-02-at-11.26.51-AM-1.jpeg.webp"
+          alt="..." class="img-thumbnail">
+        <div class="card-body">
+          <h5 class="card-title">Sandals</h5>
+          <p class="card-text">Sandals and clog for men's Foor wear.
+            <br> <a href="" class="btn btn-primary my-3">Buy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card shadow">
+        <img width="100%" src="https://stylesatlife.com/wp-content/uploads/2021/05/Skechers-Casual-Sandals-for-Men.jpg"
+          alt="..." class="img-thumbnail">
+        <div class="card-body">
+          <h5 class="card-title">Sneakers</h5>
+          <p class="card-text">The sneekers that makes you comfortable.
+            <br> <a href="" class="btn btn-primary my-3">Buy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card shadow">
+        <img width="100%"
+          src="https://cdn.shopify.com/s/files/1/0140/6042/1206/products/1013755_1024x1024.jpg?v=1627402560" alt="..."
+          class="img-thumbnail">
+        <div class="card-body">
+          <h5 class="card-title">Sandel</h5>
+          <p class="card-text">The awesome sandels of Nike that every onne Knows.
+            <br> <a href="" class="btn btn-primary my-3">Buy</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div> -->
+
+  <!-- FOOTER SESSION STARTS -->
+<!-- 
+  <footer class="bg-light text-center text-lg-start">
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+
+      <a class="text-dark" href="../main.html">www.HappyShopping.com</a>
+    </div>
+
+  </footer> -->
+
+  <!-- FOOTER SESSION ENDS -->
+
+
+
+  <input id="render1" value="2" type="hidden">
+
+  <div id="render"></div>
+
+
+  <!-- FOOTER -->
+
+
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+  <div class="container my-5">
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Happy Trading
+              </h6>
+              <p>Here, You can buy any thing what you in our products. Try to have in touch with us. As we add some
+                thing new, you will be awared as first.</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+              <p>
+                <a href="#watches" class="text-white">Watches</a>
+              </p>
+              <p>
+                <a href="#shoes" class="text-white">Shoes</a>
+              </p>
+              <p>
+                <a href="#jackets" class="text-white">Jackets</a>
+              </p>
+              <p>
+                <a href="#accecories" class="text-white">Accecories</a>
+              </p>
+
+              <p>
+                <a href="#sunglasses" class="text-white">Sun glasses</a>
+              </p>
+
+
+              <p>
+                <a href="#headphones" class="text-white">Headphones</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 id="contact" class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> Ground floor, Shop # 3, ChaseUp Shopping mall, Karachi</p>
+              <p><i class="fas fa-envelope mr-3"></i> afroozalam5@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i>+92 3215246450</p>
+              <p><i class="fas fa-print mr-3"></i> +92 3332437933</p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+              <!-- Facebook -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
+                  class="fab fa-facebook-f"></i></a>
+
+              <!-- Twitter -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
+                  class="fab fa-twitter"></i></a>
+
+              <!-- Google -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i
+                  class="fab fa-google"></i></a>
+
+              <!-- Instagram -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
+                  class="fab fa-instagram"></i></a>
+
+              <!-- Linkedin -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i
+                  class="fab fa-linkedin-in"></i></a>
+              <!-- Github -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        <a class="text-white" href="../main.html">Happy Trading.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
+
+  <!-- FOOTER -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <script type="module" src="app1.js"></script>
+</body>
+
+</html>

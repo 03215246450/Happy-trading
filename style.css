@@ -1,0 +1,22 @@
+.card {
+    /* Define the initial transition properties */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    /* Define the styles you want to apply when the card is hovered */
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+
+  body{
+    background-image: url('https://www.sleeplessmedia.com/wp-content/uploads/2010/09/extensive-ecommerce-banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+   }
+
+   a{
+    text-decoration: none;
+   }
